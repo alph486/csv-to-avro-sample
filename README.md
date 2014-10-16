@@ -7,6 +7,9 @@ The data included with this sample is from the Million Song Dataset project: htt
 
 To use:
 
-- Clone the repo.
+- Clone the repo (have pip and virtualenv installed)
+- virtualenv env
+- source env/bin/activate
+- pip install -r requirements.txt
 - Unzip data/unique_tracks.zip to the data/ directory
 - In the root directory: python avro-convert.py
