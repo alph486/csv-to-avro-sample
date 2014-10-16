@@ -1,0 +1,10 @@
+{"namespace": "example.avro.songs",
+ "type": "record",
+ "name": "Song",
+ "fields": [
+     {"name": "id1", "type": "string"},
+     {"name": "id2",  "type": "string"},
+     {"name": "artist", "type": "string"},
+     {"name": "song", "type": "string"}
+ ]
+}
