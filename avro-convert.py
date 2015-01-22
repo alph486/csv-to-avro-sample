@@ -28,7 +28,7 @@ with codecs.open('data/subset_unique_tracks.txt', 'r', encoding='latin_1') as cs
 			print "Bad record, skip."
 	writer.close()
 
-# Uncomment to read the data from the file
+# Uncomment to read and print the data from the Avro file
 
 # reader = DataFileReader(open("data/songs.avro", "r"), DatumReader())
 # for user in reader:
